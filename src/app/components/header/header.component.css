@@ -1,0 +1,30 @@
+header {
+  width: 100vw;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  padding-left: 150px;
+  font-size: 25px;
+  color: #9800ce;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 60px;
+  float: right;
+}
+nav {
+  transform: rotate(90deg);
+}
+nav a {
+  margin-left: 70px;
+  font-size: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+}
