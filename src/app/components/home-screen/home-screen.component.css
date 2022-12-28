@@ -84,22 +84,30 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .animation {
     flex-direction: column;
   }
   .static-text {
-    font-size: 25px;
+    font-size: 22px;
   }
   .wrapper .dynamic-texts {
     height: 30px;
   }
   .wrapper .dynamic-texts li {
-    font-size: 25px;
+    font-size: 22px;
+    animation: min-slide 12s steps(4) infinite;
   }
-  @keyframes slide {
+  @keyframes min-slide {
     100% {
-      top: -111px;
+      top: -139px;
     }
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .buttons a {
+    margin: 5px;
+    padding: 5px 15px 5px 15px;
   }
 }

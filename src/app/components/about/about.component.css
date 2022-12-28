@@ -41,3 +41,22 @@ p {
   border-color: #fff;
   color: #040305;
 }
+
+@media only screen and (max-width: 1000px) {
+  #about {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #about {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  #about {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
