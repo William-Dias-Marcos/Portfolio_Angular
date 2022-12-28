@@ -1,0 +1,43 @@
+#about {
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+h3 {
+  font-size: 25px;
+  padding: 40px;
+}
+p {
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.listTechnologies li {
+  list-style: none;
+  margin-right: 1rem;
+  font-size: 16px;
+}
+
+.buttonCurriculum {
+  float: right;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 10px 30px 10px 30px;
+
+  -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+.buttonCurriculum:hover {
+  box-shadow: 0 0 40px 40px #fff inset;
+  border-color: #fff;
+  color: #040305;
+}
