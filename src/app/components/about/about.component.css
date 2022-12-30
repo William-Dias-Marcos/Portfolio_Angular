@@ -26,10 +26,10 @@ p {
 
 .buttonCurriculum {
   float: right;
-  color: #fff;
+  color: #9800ce;
   font-size: 20px;
   text-decoration: none;
-  border: 2px solid #9800ce;
+  border: 2px solid #fff;
   border-radius: 10px;
   padding: 10px 30px 10px 30px;
 
@@ -38,8 +38,6 @@ p {
 }
 .buttonCurriculum:hover {
   box-shadow: 0 0 40px 40px #fff inset;
-  border-color: #9800ce;
-  color: #040305;
 }
 
 @media only screen and (max-width: 1200px) {
