@@ -34,3 +34,27 @@ h3 {
   color: #fff;
   border-bottom: 2px solid #9800ce;
 }
+
+@media only screen and (max-width: 1200px) {
+  #projects {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+@media only screen and (max-width: 990px) {
+  #projects {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  #projects {
+    padding-top: 150px;
+  }
+}
+@media only screen and (max-width: 620px) {
+  #projects {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
