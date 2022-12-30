@@ -42,19 +42,25 @@ p {
   color: #040305;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
   #about {
     margin-left: 100px;
     margin-right: 100px;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 990px) {
   #about {
     margin-left: 50px;
     margin-right: 50px;
   }
 }
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 800px) {
+  #about {
+    padding-top: 150px;
+  }
+}
+
+@media only screen and (max-width: 620px) {
   #about {
     margin-left: 20px;
     margin-right: 20px;
