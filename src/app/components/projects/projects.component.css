@@ -1,3 +1,36 @@
-* {
-  color: white;
+#projects {
+  color: #fff;
+  min-height: 100vh;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+h3 {
+  font-size: 25px;
+  padding: 40px;
+}
+.allProjects {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.project {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  border: 2px #fff solid;
+  border-radius: 5px;
+  padding: 20px;
+}
+.projectName {
+  color: #9800ce;
+}
+.links {
+  text-decoration: none;
+  margin-left: 10px;
+  color: #fff;
+  border-bottom: 2px solid #9800ce;
 }
