@@ -19,8 +19,7 @@ http://www.williamdiasmarcos.com/
 ## 📱 Layout da Aplicação
 
  <p text  align="center">
-  <img img width= "700" src= "">
-  Indisponível no momento!
+  <img img width= "700" src= "https://github.com/William-Dias-Marcos/Portfolio_Angular/blob/main/to-readme/portfolio.gif">
  </p>
 
 ---
