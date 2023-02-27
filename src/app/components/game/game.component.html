@@ -1,0 +1,15 @@
+<div id="technologies">
+  <h3>Habilidades</h3>
+  <div class="game">
+    <div class="gameBoard">
+      <div class="card" *ngFor="let technology of technologies">
+        <div class="cardFront">
+          <img class="icon" src="../../../assets/{{ technology }}.png" />
+        </div>
+        <div class="cardBack" (click)="flipCard($event, technology)">
+          &lsaquo;/&rsaquo;
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

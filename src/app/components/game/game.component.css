@@ -1,0 +1,106 @@
+#technologies {
+  min-height: 100vh;
+
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+h3 {
+  color: #fff;
+  font-size: 25px;
+  padding: 40px;
+}
+.game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.gameBoard {
+  display: grid;
+  grid-template: 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr;
+  gap: 15px;
+}
+.card {
+  width: 110px;
+  height: 110px;
+  position: relative;
+
+  transform-style: preserve-3d;
+  transition: transform 0.9s;
+}
+
+.icon {
+  width: 80px;
+}
+.cardBack,
+.cardFront {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.45);
+  backface-visibility: hidden;
+}
+
+.flip {
+  transform: rotateY(180deg);
+}
+
+.cardFront {
+  transform: rotateY(180deg);
+  background-color: #101c2c;
+}
+
+.cardBack {
+  font-family: sans-serif;
+  background-color: #9800ce;
+  font-size: 35px;
+  color: #040305;
+}
+
+@media only screen and (max-width: 1200px) {
+  #technologies {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+@media only screen and (max-width: 990px) {
+  #technologies {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .gameBoard {
+    margin: auto;
+    gap: 8px;
+  }
+  .card {
+    width: 80px;
+    height: 80px;
+  }
+  .icon {
+    width: 50px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #technologies {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .gameBoard {
+    margin: auto;
+    gap: 5px;
+  }
+  .card {
+    width: 65px;
+    height: 65px;
+  }
+  .icon {
+    width: 50px;
+  }
+}

@@ -7,6 +7,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { HomeScreenComponent } from './components/home-screen/home-screen.component';
 import { AboutComponent } from './components/about/about.component';
 import { ProjectsComponent } from './components/projects/projects.component';
+import { GameComponent } from './components/game/game.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { ProjectsComponent } from './components/projects/projects.component';
     HomeScreenComponent,
     AboutComponent,
     ProjectsComponent,
+    GameComponent,
   ],
   imports: [BrowserModule, HttpClientModule],
   providers: [],
