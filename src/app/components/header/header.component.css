@@ -26,11 +26,14 @@ nav {
   position: fixed;
 }
 nav a {
-  margin-left: 70px;
+  margin-left: 50px;
   font-size: 20px;
   text-decoration: none;
   cursor: pointer;
   color: #fff;
+}
+nav a:hover {
+  color: #9800ce;
 }
 
 @media only screen and (max-width: 800px) {
