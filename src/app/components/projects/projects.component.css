@@ -1,8 +1,9 @@
 #projects {
   color: #fff;
-  min-height: 100vh;
+  min-height: 80vh;
   margin-left: 200px;
   margin-right: 200px;
+  margin-bottom: 30px;
 }
 h3 {
   font-size: 25px;
@@ -43,18 +44,7 @@ h3 {
 }
 @media only screen and (max-width: 990px) {
   #projects {
-    margin-left: 50px;
-    margin-right: 50px;
-  }
-}
-@media only screen and (max-width: 800px) {
-  #projects {
-    padding-top: 150px;
-  }
-}
-@media only screen and (max-width: 620px) {
-  #projects {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }

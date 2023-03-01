@@ -1,6 +1,6 @@
 #about {
   color: #fff;
-  min-height: 100vh;
+  min-height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -15,7 +15,7 @@ h3 {
 }
 p {
   font-size: 18px;
-  padding-bottom: 10px;
+  padding: 0px 20px 0px 20px;
 }
 
 .listTechnologies li {
@@ -48,22 +48,10 @@ p {
 }
 @media only screen and (max-width: 990px) {
   #about {
-    margin-left: 50px;
-    margin-right: 50px;
-  }
-}
-@media only screen and (max-width: 800px) {
-  #about {
-    padding-top: 150px;
-  }
-}
-
-@media only screen and (max-width: 620px) {
-  #about {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
   .buttonCurriculum {
-    padding: 5px 15px 5px 15px;
+    margin: 20px;
   }
 }
