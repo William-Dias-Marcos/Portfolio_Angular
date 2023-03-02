@@ -3,11 +3,10 @@
   width: 100%;
   position: fixed;
   z-index: 1;
-
-  background-color: #040305;
+  background-color: #1c1c1c;
   justify-content: space-between;
   padding: 0 10%;
-  border-bottom: #9800ce solid 2px;
+  border-bottom: #b040ff solid 2px;
 }
 .header,
 .navigation_header {
@@ -18,7 +17,7 @@
 
 .logo h2 {
   width: 45px;
-  color: #9800ce;
+  color: #b040ff;
 }
 
 .navigation_header {
@@ -33,19 +32,30 @@
   font-weight: bold;
 }
 .navigation_header a:hover {
-  color: #9800ce;
+  color: #b040ff;
 }
 
 .btn_icon_header {
   display: none;
-  background-color: #040305;
+  background-color: #1c1c1c;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.btn_icon_header_2 {
+  display: none;
+  background-color: #2d2d2d;
   border: none;
   color: #fff;
   cursor: pointer;
   transition: 0.5s;
 }
 .btn_icon_header:hover {
-  color: #9800ce;
+  color: #b040ff;
+}
+.btn_icon_header_2:hover {
+  color: #b040ff;
 }
 
 @media only screen and (max-width: 800px) {
@@ -53,15 +63,17 @@
     display: block;
   }
   .btn_icon_header_2 {
-    margin-right: 01em;
+    display: block;
   }
   .navigation_header {
     position: absolute;
     flex-direction: column;
-    background-color: #040305;
-    padding: 1em;
     transition: 0.5s;
     right: 0%;
     top: -700%;
+    width: 40%;
+    padding: 1em;
+    border-radius: 8px;
+    background-color: #2d2d2d;
   }
 }

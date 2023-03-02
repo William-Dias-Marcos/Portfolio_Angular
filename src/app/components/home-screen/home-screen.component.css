@@ -31,7 +31,7 @@
   list-style: none;
   font-size: 40px;
   position: relative;
-  color: #9800ce;
+  color: #b040ff;
   top: 0;
   animation: slide 12s steps(4) infinite;
 }
@@ -41,8 +41,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: #040305;
-  border-left: 2px solid #9800ce;
+  background-color: #1c1c1c;
+  border-left: 2px solid #b040ff;
   animation: typing 3s steps(15) infinite;
 }
 
@@ -51,7 +51,7 @@
   display: flex;
 }
 .buttons a {
-  color: #9800ce;
+  color: #b040ff;
   margin: 20px;
   font-size: 20px;
   text-decoration: none;

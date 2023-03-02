@@ -27,13 +27,13 @@ h3 {
   padding: 20px;
 }
 .projectName {
-  color: #9800ce;
+  color: #b040ff;
 }
 .links {
   text-decoration: none;
   margin-left: 10px;
   color: #fff;
-  border-bottom: 2px solid #9800ce;
+  border-bottom: 2px solid #b040ff;
 }
 
 @media only screen and (max-width: 1200px) {

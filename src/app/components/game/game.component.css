@@ -51,15 +51,15 @@ h3 {
 
 .cardFront {
   transform: rotateY(180deg);
-  background-color: #101c2c;
+  background-color: #2d2d2d;
 }
 
 .cardBack {
   font-family: sans-serif;
-  background-color: #9800ce;
+  background-color: #b040ff;
   font-size: 40px;
   font-weight: bold;
-  color: #040305;
+  color: #1c1c1c;
 }
 
 @media only screen and (max-width: 1200px) {

@@ -12,7 +12,7 @@ export class HeaderComponent {
   togleSidebar() {
     let screenWidth = window.screen.width;
 
-    if (screenWidth < 800) {
+    if (screenWidth < 801) {
       this.showSidebar = !this.showSidebar;
       let sidebar = this.navigationHeader.nativeElement;
 
