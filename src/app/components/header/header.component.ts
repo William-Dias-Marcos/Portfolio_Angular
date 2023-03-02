@@ -13,11 +13,10 @@ export class HeaderComponent {
     this.showSidebar = !this.showSidebar;
     let sidebar = this.navigationHeader.nativeElement;
 
-    if (this.showSidebar) {
-      sidebar.style.top = '0%';
+    if (!this.showSidebar) {
+      sidebar.style.top = '-700%';
     } else {
-      sidebar.style.top = '-100%';
+      sidebar.style.top = '0%';
     }
-    // this.navigationHeader.nativeElement.classList.add('showSidebar');
   }
 }

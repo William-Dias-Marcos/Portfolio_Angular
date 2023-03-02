@@ -1,8 +1,13 @@
 .header {
-  box-shadow: 1px 1px 4px #000;
   height: 3.5em;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+
+  background-color: #040305;
   justify-content: space-between;
   padding: 0 10%;
+  border-bottom: #9800ce solid 2px;
 }
 .header,
 .navigation_header {
@@ -17,6 +22,7 @@
 }
 
 .navigation_header {
+  position: relative;
   gap: 3em;
   z-index: 2;
 }
@@ -47,18 +53,15 @@
     display: block;
   }
   .btn_icon_header_2 {
-    margin-right: 2.8em;
+    margin-right: 01em;
   }
   .navigation_header {
     position: absolute;
     flex-direction: column;
-    top: 0;
     background-color: #040305;
-    height: 40vh;
-    width: 40vw;
     padding: 1em;
     transition: 0.5s;
     right: 0%;
-    top: -100%;
+    top: -700%;
   }
 }
