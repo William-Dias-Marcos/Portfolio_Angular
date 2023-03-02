@@ -1,6 +1,7 @@
 #technologies {
   margin-left: 200px;
   margin-right: 200px;
+  padding-top: 25px;
 }
 
 h3 {
@@ -79,28 +80,36 @@ h3 {
     gap: 8px;
   }
   .card {
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
   }
   .icon {
-    width: 50px;
+    width: 60px;
   }
   .cardBack {
     font-size: 30px;
   }
 }
 @media only screen and (max-width: 400px) {
-  #technologies {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
   .gameBoard {
     margin: auto;
     gap: 5px;
   }
   .card {
-    width: 65px;
-    height: 65px;
+    width: 70px;
+    height: 70px;
+  }
+  .icon {
+    width: 45px;
+  }
+  .cardBack {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .card {
+    width: 60px;
+    height: 60px;
   }
   .icon {
     width: 40px;

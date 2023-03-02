@@ -10,13 +10,17 @@ export class HeaderComponent {
   showSidebar: boolean = false;
 
   togleSidebar() {
-    this.showSidebar = !this.showSidebar;
-    let sidebar = this.navigationHeader.nativeElement;
+    let screenWidth = window.screen.width;
 
-    if (!this.showSidebar) {
-      sidebar.style.top = '-700%';
-    } else {
-      sidebar.style.top = '0%';
+    if (screenWidth < 800) {
+      this.showSidebar = !this.showSidebar;
+      let sidebar = this.navigationHeader.nativeElement;
+
+      if (!this.showSidebar) {
+        sidebar.style.top = '-700%';
+      } else {
+        sidebar.style.top = '0%';
+      }
     }
   }
 }
