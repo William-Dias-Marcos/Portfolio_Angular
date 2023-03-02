@@ -14,13 +14,7 @@ h3 {
 }
 p {
   font-size: 18px;
-  padding: 0px 20px 0px 20px;
-}
-
-.listTechnologies li {
-  list-style: none;
-  margin-right: 1rem;
-  font-size: 16px;
+  padding: 0px 25px 10px 25px;
 }
 
 .buttonCurriculum {
