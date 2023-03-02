@@ -1,12 +1,11 @@
 #about {
-  color: #fff;
-  min-height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-left: 200px;
   margin-right: 200px;
+  color: #fff;
 }
 
 h3 {
@@ -52,6 +51,6 @@ p {
     margin-right: 0px;
   }
   .buttonCurriculum {
-    margin: 20px;
+    margin-right: 20px;
   }
 }
